@@ -36,7 +36,7 @@ def split_mp3(arquivo_entrada, comprimento_trecho_segundos):
     print(f"{numero_techo_comprimento} segmentos em MP3 criadas com sucesso.")
 
 if __name__ == "__main__":
-    arquivo_entrada = "231018-reuniao.mp3"  # Substitua pelo nome do seu arquivo MP3
+    arquivo_entrada = "seu_audio_MP3.mp3"  # Substitua pelo nome do seu arquivo MP3
     comprimento_trecho_segundos = 1300  # Tamanho do trecho em segundos
 
     split_mp3(arquivo_entrada, comprimento_trecho_segundos)
